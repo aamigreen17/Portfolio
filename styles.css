@@ -223,6 +223,7 @@ body {
     display: grid;
     gap: 3rem;
     align-items: center;
+    margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
@@ -276,16 +277,28 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.hero-name {
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
 @media (min-width: 640px) {
     .hero-title {
-        font-size: 3.75rem;
+        font-size: 2.8rem;
     }
 }
 
-.gradient-text {
-    background: linear-gradient(to right, var(--blue-500), var(--green-500), var(--orange-500));
+.blue-green-gradient-text {
+    background: linear-gradient(to right, var(--blue-500), var(--green-500));
     -webkit-background-clip: text;
     background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue-orange-gradient-text {
+    background: linear-gradient(to right, var(--blue-500), var(--orange-500));
+    -webkit-background-clip: text;
+    background-clip: ;
     -webkit-text-fill-color: transparent;
 }
 
@@ -332,6 +345,7 @@ body {
     background: var(--slate-800);
     color: var(--white);
     border: 1px solid var(--slate-700);
+    margin: 0 0 25px 0;
 }
 
 .btn-secondary:hover {
@@ -379,10 +393,11 @@ body {
 /* Hero Image */
 .hero-image {
     position: relative;
+    text-align: end;
 }
 
 .hero-image img {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 1rem;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);

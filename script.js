@@ -254,26 +254,6 @@ images.forEach(img => {
     imageObserver.observe(img);
 });
 
-// Add typing effect to hero title (optional)
-const heroTitle = document.querySelector('.hero-title');
-if (heroTitle && window.innerWidth > 768) {
-    const text = heroTitle.innerHTML;
-    heroTitle.innerHTML = '';
-    heroTitle.style.opacity = '1';
-    
-    let i = 0;
-    function typeWriter() {
-        if (i < text.length) {
-            heroTitle.innerHTML += text.charAt(i);
-            i++;
-            setTimeout(typeWriter, 50);
-        }
-    }
-    
-    // Start typing after a short delay
-    setTimeout(typeWriter, 500);
-}
-
 // Console message for developers
 console.log('%c👋 Hi there!', 'font-size: 20px; font-weight: bold; color: #3b82f6;');
 console.log('%cInterested in how this portfolio was built?', 'font-size: 14px; color: #22c55e;');
