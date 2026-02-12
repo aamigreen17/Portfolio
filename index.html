@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 12h12M12 6v12"></path>
+                    <rect x="2" y="2" width="20" height="20" rx="2"></rect>
+                </svg>
+                <span>Portfolio</span>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content fade-in-left">
+                    <div class="badge">
+                        <span>Computer Science Student • Seeking Opportunities</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Software & Game<br>
+                        <span class="gradient-text">Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        Undergraduate developer passionate about building innovative solutions,
+                        from interactive games to scalable web applications. Ready to contribute
+                        and grow in a professional environment.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-right">
+                    <img src="https://images.unsplash.com/photo-1672385245363-f4e7ed05a63c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwbGFwdG9wJTIwY29kZXxlbnwxfHx8fDE3NzA4Njk4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Software Development">
+                    <div class="floating-blob blob-1"></div>
+                    <div class="floating-blob blob-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>What I Bring</h2>
+                    <p>A diverse skill set combining technical expertise with creative thinking</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon bg-orange">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 2L3 6v14c0 1.1.9 2 2 2h14a2 2 0 002-2V6l-3-4H6zM3 6h18M8 10v4M12 10v4M16 10v4"></path>
+                            </svg>
+                        </div>
+                        <h3>Game Development</h3>
+                        <p>Building interactive experiences with Unity, Unreal, and custom engines</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon bg-blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 18L22 12 16 6M8 6L2 12 8 18"></path>
+                            </svg>
+                        </div>
+                        <h3>Full-Stack Development</h3>
+                        <p>Creating web and mobile applications with modern frameworks</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon bg-green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 17l6-6-6-6M12 19h8"></path>
+                            </svg>
+                        </div>
+                        <h3>Problem Solving</h3>
+                        <p>Strong foundation in data structures, algorithms, and system design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="skills-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Technical Skills</h2>
+                    <p>Tools and technologies I work with</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card fade-in">
+                        <svg class="skill-icon text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zM14 2v6h6M16 13H8M16 17H8M10 9H8"></path>
+                        </svg>
+                        <h3>Languages</h3>
+                        <p>JavaScript, TypeScript, Python, C#, C++, Java</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <svg class="skill-icon text-green" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 18L22 12 16 6M8 6L2 12 8 18"></path>
+                        </svg>
+                        <h3>Web Development</h3>
+                        <p>React, Node.js, Express, MongoDB, PostgreSQL</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <svg class="skill-icon text-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 2L3 6v14c0 1.1.9 2 2 2h14a2 2 0 002-2V6l-3-4H6z"></path>
+                        </svg>
+                        <h3>Game Engines</h3>
+                        <p>Unity, Unreal Engine, Godot</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <svg class="skill-icon text-blue-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 17l6-6-6-6M12 19h8"></path>
+                        </svg>
+                        <h3>Tools & Other</h3>
+                        <p>Git, Docker, AWS, Figma, Blender</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta-section">
+            <div class="container">
+                <div class="cta-card fade-in">
+                    <h2>Looking for Opportunities</h2>
+                    <p>I'm actively seeking internships and entry-level positions where I can contribute, learn, and grow as a developer. Let's connect!</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                        <button class="btn btn-secondary">Download Resume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h1 class="page-title">My Projects</h1>
+                <p>A showcase of my work in game development and software engineering</p>
+            </div>
+
+            <!-- Game Development Projects -->
+            <div class="projects-category">
+                <h2 class="category-title">
+                    <span class="category-indicator bg-orange"></span>
+                    Game Development
+                </h2>
+                <div class="projects-grid-large">
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1660496379804-b408bfacc9cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMGdhbWluZyUyMHNldHVwfGVufDF8fHx8MTc3MDgwMTQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080" alt="3D Puzzle Platformer">
+                            <div class="project-overlay">
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"></path>
+                                    </svg>
+                                </button>
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <path d="M16 2v4M8 2v4M3 10h18"></path>
+                                </svg>
+                                <span>Fall 2025</span>
+                            </div>
+                            <h3>3D Puzzle Platformer</h3>
+                            <p>A physics-based puzzle game featuring innovative mechanics and 20+ levels. Built with Unity and C#, featuring custom shader work and procedural level generation.</p>
+                            <div class="project-tags">
+                                <span class="tag tag-orange">Unity</span>
+                                <span class="tag tag-orange">C#</span>
+                                <span class="tag tag-orange">3D</span>
+                                <span class="tag tag-orange">Physics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1660507224958-729c18ba1277?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpZSUyMGdhbWUlMjBwaXhlbCUyMGFydHxlbnwxfHx8fDE3NzA4Mzk2Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="2D Roguelike RPG">
+                            <div class="project-overlay">
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"></path>
+                                    </svg>
+                                </button>
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <path d="M16 2v4M8 2v4M3 10h18"></path>
+                                </svg>
+                                <span>Spring 2025</span>
+                            </div>
+                            <h3>2D Roguelike RPG</h3>
+                            <p>Procedurally generated dungeon crawler with turn-based combat. Features include inventory system, skill trees, and persistent progression.</p>
+                            <div class="project-tags">
+                                <span class="tag tag-orange">Godot</span>
+                                <span class="tag tag-orange">GDScript</span>
+                                <span class="tag tag-orange">Procedural</span>
+                                <span class="tag tag-orange">2D</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Software Development Projects -->
+            <div class="projects-category">
+                <h2 class="category-title">
+                    <span class="category-indicator bg-blue"></span>
+                    Software Development
+                </h2>
+                <div class="projects-grid">
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1593720213681-e9a8778330a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2dyYW1taW5nfGVufDF8fHx8MTc3MDgyNTU5NXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Task Management Web App">
+                            <div class="project-overlay">
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"></path>
+                                    </svg>
+                                </button>
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <path d="M16 2v4M8 2v4M3 10h18"></path>
+                                </svg>
+                                <span>Winter 2025</span>
+                            </div>
+                            <h3>Task Management Web App</h3>
+                            <p>Full-stack productivity application with real-time collaboration, user authentication, and REST API. Built with React, Node.js, and MongoDB.</p>
+                            <div class="project-tags">
+                                <span class="tag tag-blue">React</span>
+                                <span class="tag tag-blue">Node.js</span>
+                                <span class="tag tag-blue">MongoDB</span>
+                                <span class="tag tag-blue">REST API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1633250391894-397930e3f5f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXZlbG9wbWVudHxlbnwxfHx8fDE3NzA4Mjk3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Mobile Fitness Tracker">
+                            <div class="project-overlay">
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"></path>
+                                    </svg>
+                                </button>
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <path d="M16 2v4M8 2v4M3 10h18"></path>
+                                </svg>
+                                <span>Fall 2024</span>
+                            </div>
+                            <h3>Mobile Fitness Tracker</h3>
+                            <p>Cross-platform mobile app for tracking workouts and nutrition. Includes data visualization, goal setting, and progress analytics.</p>
+                            <div class="project-tags">
+                                <span class="tag tag-blue">React Native</span>
+                                <span class="tag tag-blue">TypeScript</span>
+                                <span class="tag tag-blue">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1672385245363-f4e7ed05a63c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwbGFwdG9wJTIwY29kZXxlbnwxfHx8fDE3NzA4Njk4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Algorithm Visualizer">
+                            <div class="project-overlay">
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"></path>
+                                    </svg>
+                                </button>
+                                <button class="icon-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <path d="M16 2v4M8 2v4M3 10h18"></path>
+                                </svg>
+                                <span>Summer 2024</span>
+                            </div>
+                            <h3>Algorithm Visualizer</h3>
+                            <p>Interactive web tool for visualizing sorting and pathfinding algorithms. Educational tool with adjustable speed and custom data inputs.</p>
+                            <div class="project-tags">
+                                <span class="tag tag-green">JavaScript</span>
+                                <span class="tag tag-green">Canvas API</span>
+                                <span class="tag tag-green">Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GitHub CTA -->
+            <div class="github-cta fade-in">
+                <svg class="github-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                </svg>
+                <h3>View More on GitHub</h3>
+                <p>Check out my GitHub profile for additional projects, contributions, and open-source work</p>
+                <button class="btn btn-secondary">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                    </svg>
+                    Visit GitHub Profile
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h1 class="page-title">About Me</h1>
+                <p>Computer Science student passionate about creating impactful software</p>
+            </div>
+
+            <!-- Intro -->
+            <div class="about-intro">
+                <div class="about-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1759139681761-852dd24340df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1lJTIwZGV2ZWxvcG1lbnQlMjBjb2Rpbmd8ZW58MXx8fHwxNzcwODY4OTExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Developer">
+                    <div class="floating-blob blob-3"></div>
+                </div>
+                <div class="about-content fade-in">
+                    <div class="badge-small">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                        <span>Student Developer</span>
+                    </div>
+                    <h2>Combining Technical Skills with Creative Problem Solving</h2>
+                    <p>I'm a junior computer science student with a passion for both game development and software engineering. My journey started with modding games in high school, which sparked my interest in programming and led me to pursue a CS degree.</p>
+                    <p>Through coursework, personal projects, and hackathons, I've developed a strong foundation in software development while nurturing my creative side through game development. I'm eager to apply my skills in a professional setting and continue learning from experienced developers.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value text-blue">3.8</div>
+                            <div class="stat-label">GPA</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value text-green">10+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value text-orange">2+</div>
+                            <div class="stat-label">Years Coding</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education-section">
+                <div class="section-header fade-in">
+                    <h2>Education</h2>
+                    <p>Building a strong foundation in computer science</p>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card fade-in">
+                        <div class="education-icon bg-blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                        </div>
+                        <h3>B.S. Computer Science</h3>
+                        <p class="text-blue">University Name</p>
+                        <p class="text-gray">Expected May 2027</p>
+                        <p>Focus on Software Engineering and Game Development with emphasis on modern development practices and system design.</p>
+                    </div>
+                    <div class="education-card fade-in">
+                        <div class="education-icon bg-green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 016.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Relevant Coursework</h3>
+                        <ul class="coursework-list">
+                            <li>Data Structures & Algorithms</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Database Systems</li>
+                            <li>Computer Graphics</li>
+                            <li>Software Engineering</li>
+                            <li>AI & Machine Learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills-bars-section">
+                <div class="section-header fade-in">
+                    <div class="badge-small">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 18L22 12 16 6M8 6L2 12 8 18"></path>
+                        </svg>
+                        <span>Technical Proficiency</span>
+                    </div>
+                    <h2>Skills & Technologies</h2>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-bar-item fade-in">
+                        <div class="skill-bar-header">
+                            <span>JavaScript/TypeScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill bg-blue" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item fade-in">
+                        <div class="skill-bar-header">
+                            <span>React & Node.js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill bg-green" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item fade-in">
+                        <div class="skill-bar-header">
+                            <span>Unity & C#</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill bg-orange" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item fade-in">
+                        <div class="skill-bar-header">
+                            <span>Python</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill bg-blue-light" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item fade-in">
+                        <div class="skill-bar-header">
+                            <span>Git & Agile</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill bg-slate" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item fade-in">
+                        <div class="skill-bar-header">
+                            <span>Problem Solving</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill bg-green-bright" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="achievements-section">
+                <div class="section-header fade-in">
+                    <h2>Achievements & Recognition</h2>
+                    <p>Highlights from my academic and development journey</p>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card fade-in">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9H4.5a2.5 2.5 0 010-5H6"></path>
+                                <path d="M18 9h1.5a2.5 2.5 0 000-5H18"></path>
+                                <path d="M4 22h16"></path>
+                                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                <path d="M18 2H6v7a6 6 0 0012 0V2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Hackathon Winner</h3>
+                        <p>1st place at University Hackathon for innovative AR application</p>
+                    </div>
+                    <div class="achievement-card fade-in">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Dean's List</h3>
+                        <p>Maintained 3.8+ GPA throughout college career</p>
+                    </div>
+                    <div class="achievement-card fade-in">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Open Source Contributor</h3>
+                        <p>Active contributor to game development libraries and tools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h1 class="page-title">Get In Touch</h1>
+                <p>I'm actively seeking internship and entry-level opportunities. Let's connect and discuss how I can contribute to your team!</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container fade-in">
+                    <h2>Send a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell me about the opportunity or what you'd like to discuss..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Message
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info fade-in">
+                    <h3>Connect With Me</h3>
+                    <div class="contact-links">
+                        <a href="#" class="contact-link">
+                            <div class="contact-link-icon bg-slate">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-link-content">
+                                <div class="contact-link-title">GitHub</div>
+                                <div class="contact-link-desc">View my code and projects</div>
+                                <div class="contact-link-handle">github.com/yourusername</div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="contact-link">
+                            <div class="contact-link-icon bg-blue">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-link-content">
+                                <div class="contact-link-title">LinkedIn</div>
+                                <div class="contact-link-desc">Let's connect professionally</div>
+                                <div class="contact-link-handle">linkedin.com/in/yourprofile</div>
+                            </div>
+                        </a>
+
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <div class="contact-link-icon bg-green">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-link-content">
+                                <div class="contact-link-title">Email</div>
+                                <div class="contact-link-desc">Send me a message</div>
+                                <div class="contact-link-handle">your.email@example.com</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Resume Card -->
+                    <div class="resume-card">
+                        <div class="resume-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Resume</h4>
+                            <p>Download my resume to learn more about my experience and qualifications</p>
+                            <button class="btn btn-small btn-primary">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                </svg>
+                                Download Resume
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Availability Card -->
+                    <div class="availability-card">
+                        <div class="availability-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="availability-status">
+                                <div class="status-dot"></div>
+                                <h4>Open to Opportunities</h4>
+                            </div>
+                            <p>Actively seeking summer 2026 internships and entry-level positions in software development and game development. Available for full-time roles starting May 2027.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="contact-cta fade-in">
+                <h2>Let's Build Something Great Together</h2>
+                <p>Whether you're looking for an intern, considering me for a role, or just want to chat about tech and games, I'd love to hear from you!</p>
+                <div class="cta-buttons">
+                    <a href="mailto:your.email@example.com" class="btn btn-primary">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email Me
+                    </a>
+                    <button class="btn btn-secondary">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        Connect on LinkedIn
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Student Developer Portfolio. Built with HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
