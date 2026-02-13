@@ -315,3 +315,22 @@ rainbowStyle.textContent = `
     }
 `;
 document.head.appendChild(rainbowStyle);
+
+function copyEmail() {
+    navigator.clipboard.writeText('aamigreen17@gmail.com').then(() => {
+        // Create toast
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = 'Email copied to clipboard!';
+        document.body.appendChild(toast);
+        
+        // Trigger animation
+        setTimeout(() => toast.classList.add('show'), 10);
+        
+        // Remove after delay
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => toast.remove(), 300);
+        }, 2000);
+    });
+}

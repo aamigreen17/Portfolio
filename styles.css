@@ -330,10 +330,16 @@ body {
     font-size: 1rem;
 }
 
-.btn-primary {
+.btn-primary-blue {
     background: var(--blue-600);
     color: var(--white);
     box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+}
+
+.btn-primary-green {
+    background: var(--green-600);
+    color: var(--white);
+    box-shadow: 0 10px 25px #003f00;
 }
 
 .btn-primary:hover {
