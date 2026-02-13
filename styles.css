@@ -17,7 +17,8 @@
     --blue-400: #60a5fa;
     --green-600: #16a34a;
     --green-500: #22c55e;
-    --orange-500: #f97316;
+    --orange-500: #d36214;
+    --orange-600: #ff7f26;
     --white: #ffffff;
     --gray-300: #d1d5db;
     --gray-400: #9ca3af;
@@ -340,6 +341,12 @@ body {
     background: var(--green-600);
     color: var(--white);
     box-shadow: 0 10px 25px #003f00;
+}
+
+.btn-primary-orange {
+    background: var(--orange-600);
+    color: var(--white);
+    box-shadow: 0 10px 25px #572700;
 }
 
 .btn-primary:hover {

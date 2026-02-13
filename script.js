@@ -317,20 +317,14 @@ rainbowStyle.textContent = `
 document.head.appendChild(rainbowStyle);
 
 function copyEmail() {
+    const button = event.currentTarget;
     navigator.clipboard.writeText('aamigreen17@gmail.com').then(() => {
-        // Create toast
-        const toast = document.createElement('div');
-        toast.className = 'toast';
-        toast.textContent = 'Email copied to clipboard!';
-        document.body.appendChild(toast);
+        const originalText = button.textContent;
+        button.textContent = '✓ Copied!';
         
-        // Trigger animation
-        setTimeout(() => toast.classList.add('show'), 10);
-        
-        // Remove after delay
         setTimeout(() => {
-            toast.classList.remove('show');
-            setTimeout(() => toast.remove(), 300);
-        }, 2000);
+            button.textContent = originalText;
+        }, 1500);
     });
 }
+
